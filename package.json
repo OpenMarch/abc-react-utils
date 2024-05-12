@@ -1,0 +1,29 @@
+{
+  "name": "abc-reducer",
+  "version": "1.0.0",
+  "description": "Reduces music in ABC or MusicXML notation to an ABC file with a single staff and all rests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenMarch/abc-reducer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenMarch/abc-reducer/issues"
+  },
+  "homepage": "https://github.com/OpenMarch/abc-reducer#readme",
+  "dependencies": {
+    "xml2abc": "https://wim.vree.org/js/xml2abc.tgz",
+    "cheerio": "^1.0.0-rc.3",
+    "getopts": "^2.2.4",
+    "node-stream-zip": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
